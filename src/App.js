@@ -1,5 +1,5 @@
 import './App.css';
-import Education from './Components/Education';
+import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Project from './Components/Project';
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Education/>
+    <Home/>
     <Technologies/>
     <Project/>
     <Footer/>

@@ -1,0 +1,11 @@
+.card{
+    width: 18rem;
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 13px;
+}
+.projects_name{
+    display: flex;
+    justify-content: center;
+
+}
