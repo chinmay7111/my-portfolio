@@ -3,14 +3,9 @@
     height: 100vh;
 }
 
-.technology{
-   padding: 50px;
-   justify-content: center;
-    display: flex;
-}
 .tech_name{
 margin: 10px 50px;
-font-size:300%;
+font-size:400%;
 }
 .tech_name>i:hover{
     color: red;

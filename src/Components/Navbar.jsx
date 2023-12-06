@@ -1,28 +1,28 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
-
+import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <>
      <nav className="navbar navbar-expand-lg bg-body-tertiary mb-100 ">
   <div className="container">
-    <p className="navbar-brand mb-3 h1">Chinmay</p>
+    <Link to="/" className="navbar-brand mb-2 ">Chinmay</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <p className="nav-link active" aria-current="page" >Education</p>
+          <Link to="/education" className="nav-link active" aria-current="page" >Education</Link>
         </li>
         <li className="nav-item">
-          <p className="nav-link" href="#">Thechnologies</p>
+          <Link to="/technologies" className="nav-link" href="#">Thechnologies</Link>
         </li>
         <li className="nav-item">
-          <p className="nav-link" href="#">Project</p>
+          <Link to="/project" className="nav-link" href="#">Project</Link>
         </li>
         <li className="nav-item">
-          <p className="nav-link disabled" aria-disabled="true">Contact</p>
+          <Link to="/footer" className="nav-link " >Contact</Link>
         </li>
       </ul>
     </div>

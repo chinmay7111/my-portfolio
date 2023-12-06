@@ -2,11 +2,12 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.css.map"
 import "../Styles/Technologies.css"
 function Technologies() {
-  return (
-    <div  className='container-fluid bg-dark text-white text-center'>
+  return (<>
+  <h1 className='text-center mt-4'>Technologies</h1>
+    <div  className='container-fluid  text-black text-center'>
       <div className=''>
-      <h1>Technologies</h1>
-      <div className="technology " >
+      
+      <div className="technology  d-flex align-item-center justify-content-center my-5" >
         <div className='tech_name '>
         <i class="fa-brands fa-html5 "></i>
         </div>
@@ -20,7 +21,7 @@ function Technologies() {
         <i class="fa-brands fa-java"></i>
         </div>
       </div>
-      <div className="technology">
+      <div className="technology  d-flex align-item-center justify-content-center my-5">
         <div className='tech_name '>
         <i class="fa-brands fa-react "></i>
         </div>
@@ -36,6 +37,7 @@ function Technologies() {
       </div>
       </div>
     </div>
+    </>
   )
 }
 
