@@ -9,4 +9,13 @@ font-size:400%;
 }
 .tech_name>i:hover{
     color: red;
+
+}
+.tech_name:hover + .hide{
+    display: block;
+    color: red;
+    transition-duration: 3s;
+}
+.hide{
+    display: none;
 }

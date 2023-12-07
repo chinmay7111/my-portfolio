@@ -10,30 +10,30 @@ function Technologies() {
       <div className="technology  d-flex align-item-center justify-content-center my-5" >
         <div className='tech_name '>
         <i class="fa-brands fa-html5 "></i>
-        </div>
+        </div> <div className='hide mt-4'><h1 className='text-center'>HTML</h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-css3-alt"></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>CSS</h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-js"></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>Java Script</h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-java"></i>
-        </div>
+        </div> <div className='hide mt-4'><h1 className='text-center'>Java</h1></div>
       </div>
       <div className="technology  d-flex align-item-center justify-content-center my-5">
         <div className='tech_name '>
         <i class="fa-brands fa-react "></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>React</h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-bootstrap"></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>BootStrap</h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-node"></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>Node </h1></div>
         <div className='tech_name'>
         <i class="fa-brands fa-github"></i>
-        </div>
+        </div><div className='hide mt-4'><h1 className='text-center'>Git Hub</h1></div>
       </div>
       </div>
     </div>
