@@ -2,10 +2,45 @@
     height: 100vh;
     justify-content: center;
     text-align: justify;
-    margin-top: 5px;
-    padding-top: 100px;
+}
+h2{
+    margin: 62px 15px;
 }
 p{
     padding-top: 30px;
     text-align: justify;
 }
+.head_img{
+    display: flex;
+    justify-content: center;
+}
+#pimg{
+    height: 200px;
+    width: 200px;
+}
+.myimg{
+    transform: perspective(400px) rotateY(8deg);
+  &:hover {
+    transform: perspective(400px) rotateY(-8deg);
+
+  }
+}
+
+
+
+.txt {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .txt p {
+    margin-bottom: 20px;
+  }
+
+@media (max-width: 768px) {
+   .edu_info{
+    font-size: 10px;
+   }
+  }
+
+  

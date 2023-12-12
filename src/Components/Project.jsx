@@ -13,7 +13,7 @@ function Project() {
         
       <div className=" d-flex align-item-center  justify-content-center ">
       <div class="card " >
-  <img src={img1} class="card-img-top" alt="..."></img>
+  <img className='img-hover' src={img1} class="card-img-top" alt="..."></img>
   <div class="card-body">
     <h5 class="card-title">Project Name : Watch-Mart</h5>
     <p class="card-text">Watch-Mart is an Ecommerce web application.... </p>
@@ -21,7 +21,7 @@ function Project() {
   </div>
 </div>
       <div class="card" >
-  <img src={img3} class="card-img-top" alt="..."></img>
+  <img className='img-hover'src={img3} class="card-img-top" alt="..."></img>
   <div class="card-body">
     <h5 class="card-title">Project Name : Portfolio</h5>
     <p class="card-text">This is My Portfolio Application built on React js .... </p>
@@ -29,7 +29,7 @@ function Project() {
   </div>
 </div>
       <div class="card" >
-  <img src={img2} class="card-img-top" alt="..."></img>
+  <img className='img-hover'src={img2} class="card-img-top" alt="..."></img>
   <div class="card-body">
     <h5 class="card-title">Project Name : ToDO List</h5>
     <p class="card-text">This is ToDO List app you can view it .... </p>
