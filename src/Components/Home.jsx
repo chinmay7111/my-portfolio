@@ -7,7 +7,7 @@ import chinmay_img from "../Images/chinmay.png"
 function Home() {
   let link = "https://wa.me/919307247310?text= hey chinmay want to chat with u.."
   return (
-    <div className='container-fluid bg-dark text-white bg-opacity-75  '>
+    <div className='container-fluid bg-light text-dark  '>
       <div className='edu_info'>
         <div className='text-center'>
           <div className="head_img"><h2>Hey, I'am <span className='text-danger fs-1'>C</span>hinmay</h2>

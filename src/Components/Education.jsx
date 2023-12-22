@@ -6,7 +6,7 @@ function Education() {
   return (
     <>
        <h1 className='text-center mt-4'>Education</h1>
-    <div className="container-fluid bg-light text-balck ">
+    <div className="container-fluid text-balck ">
      
      <table class="table table-success  table-striped border border-5">
   <thead>

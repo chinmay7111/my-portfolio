@@ -1,4 +1,10 @@
+.container-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
 
+}
 .card {
     margin: 0px 30px;
     background-color: transparent;
