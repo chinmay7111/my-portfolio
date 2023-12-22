@@ -13,7 +13,7 @@ function Project() {
       img: img1,
     },
     {
-      pname: "Project Name : Portfolio",
+      pname: "Portfolio",
       pinfo: "It's My Portfolio Application built on React js ...",
       img: img2,
     },
@@ -41,7 +41,7 @@ function Project() {
               <div class="card-body">
                 <h5 class="card-title">Project Name : {e.pname}</h5>
                 <p class="card-text">{e.pinfo} </p>
-                <p href="#" class="btn btn-outline-primary">
+                <p href="#" class="btn btn-outline-danger">
                   Click to see more..
                 </p>
               </div>

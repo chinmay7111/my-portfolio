@@ -33,6 +33,10 @@ function App() {
 
           
         </Routes>
+        <Technologies/>
+        <Project/>
+        <Education/>
+        <Footer/>
       </BrowserRouter>
     </>
   );

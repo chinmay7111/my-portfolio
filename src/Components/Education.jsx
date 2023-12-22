@@ -1,6 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css.map"
 import "../Styles/Education.css"
+import { hover } from '@testing-library/user-event/dist/hover'
 
 function Education() {
   return (

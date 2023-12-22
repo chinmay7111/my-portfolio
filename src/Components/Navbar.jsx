@@ -1,7 +1,9 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from 'react-router-dom'
+import "../Styles/Navbar.css"
 function Navbar() {
+
   return (
     <>
      <nav className="navbar navbar-expand-lg bg-body-tertiary pb-4  ">
@@ -13,16 +15,16 @@ function Navbar() {
     <div className="collapse navbar-collapse  d-flex align-items-center justify-content-center" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link to="/education" className="nav-link active" aria-current="page" >Education</Link>
+          <Link to="/education" className="nav-link " aria-current="page" >Education</Link>
         </li>
         <li className="nav-item">
-          <Link to="/technologies" className="nav-link active" >Thechnologies</Link>
+          <Link to="/technologies" className="nav-link " >Thechnologies</Link>
         </li>
         <li className="nav-item">
-          <Link to="/project" className="nav-link active" >Project</Link>
+          <Link to="/project" className="nav-link " >Project</Link>
         </li>
         <li className="nav-item">
-          <Link to="/footer" className="nav-link  active" >Contact</Link>
+          <Link to="/footer" className="nav-link " >Contact</Link>
         </li>
       </ul>
     </div>

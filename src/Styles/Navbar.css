@@ -1,0 +1,12 @@
+.nav-link:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition-delay: 2ms;
+}
+
+.nav-link{
+    margin: 0px 5px;
+    font-size: 20px;
+}
